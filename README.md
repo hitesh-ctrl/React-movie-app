@@ -1,12 +1,61 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that fetches and displays movies using an external API. Users can also mark movies as favourites.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Search for movies by title
+- 🖼️ View movie posters, titles, and release years
+- ❤️ Mark/unmark movies as favourites
+- 💾 Persistent favourites using `localStorage`
+- 📱 Responsive design
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- JavaScript (ES6+)
+- CSS
+- TMDb API 
+
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/movie-app.git
+cd movie-app
+npm install
+npm start
+```
+
+The app will run on `http://localhost:3000`
+
+## 🧠 How It Works
+
+1. The app uses `fetch()` to call the TMDb API based on user input.
+2. Movies are displayed as cards with poster, title, and year.
+3. Favourites are stored in the browser `localStorage` and retrieved on load.
+4. Clicking on a heart icon toggles favourite status.
+
+## 📝 Notes
+
+- You’ll need to get a free API key from [TMDb API] and replace it in the code where required.
+- Add your .env file if you're using environment variables.
+
+## 📂 Project Structure
+
+```
+movie-app/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+```
+
+## 🙋‍♂️ Author
+
+Made by Hitesh Venugopalan — based on Tech With Tim's React tutorial.
+
