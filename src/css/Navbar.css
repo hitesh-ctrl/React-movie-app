@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 1rem 2rem;
+  font-family: Arial, sans-serif;
+}
+
+nav div:first-child a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00d8ff;
+  text-decoration: none;
+}
+
+nav div:last-child {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav div:last-child a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+nav div:last-child a:hover {
+  color: #00d8ff;
+}
