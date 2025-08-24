@@ -1,4 +1,4 @@
-# 🎬 Movie App
+# 🎬 Movie App - https://react-movie-app-gules-kappa.vercel.app/
 
 A simple React application that fetches and displays movies using an external API. Users can also mark movies as favourites.
 
